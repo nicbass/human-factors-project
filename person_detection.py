@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 import pygame
 import threading
-import XInput  # Correct library for Xbox controller
+import XInput 
 import time
 
 pygame.mixer.init()
@@ -13,7 +13,7 @@ cap = cv2.VideoCapture(0)
 
 class_names = ['drowsy']
 
-audio_file = 'kazakhstan-eas-alarm-2022-loop-251843.mp3'
+audio_file = 'Alert (1 time).mp3'
 
 def play_alert_sound_with_vibration():
     """Play the alert sound and activate vibration for the duration of the sound."""
