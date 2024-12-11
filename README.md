@@ -9,6 +9,7 @@ Our system analyzes video through a camera (must have camera) and detects if a u
 ### Installation
 1. Install [YOLOv8](https://universe.roboflow.com/drowsy-detection/drowsiness-detection-g3r3l) and download the necessary datasets from this site (Yolov8).
 2. Place the downloaded models and datasets in the **main directory** of this project.
+3. The program should then be able to be ran through either an IDE of choice or by executing the file "person_detection.py".
 
 ### Running the Application
 To run the application, use the following command (in the IDE of your choice):
